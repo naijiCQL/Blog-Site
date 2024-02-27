@@ -2,7 +2,7 @@
  * @Author: 陈巧龙
  * @Date: 2024-02-27 21:21:09
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-02-27 21:26:56
+ * @LastEditTime: 2024-02-27 21:44:13
  * @FilePath: \Node_Study\README.md
  * @Description: 
 -->
@@ -11,7 +11,7 @@
 
 ## 项目简介
 
-1、本项目采用Node.js + Express + EJS进行编写，主要目的是学习Node.js。
+1、本项目目前采用Node.js + Express + EJS进行编写，主要目的是学习Node.js。
 
 2、部分代码未进行展示，目前项目正在优化中，后续再进行更新。
 
