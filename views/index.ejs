@@ -1,0 +1,37 @@
+<!--
+ * @Author: 陈巧龙
+ * @Date: 2024-02-27 15:49:28
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2024-02-27 21:17:51
+ * @FilePath: \Node_Study\views\index.ejs
+ * @Description: 主页面
+-->
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+    <body>
+        <%- include("./partials/nav.ejs") %>
+
+            <div class="blogs content">
+                <h2>All Blogs</h2>
+
+                <% if(blogs.length>0){ %>
+                    <% blogs.map(blog=> { %>
+                        <div class="content-style">
+                            <h3 class="title">
+                                <%= blog.title %>
+                            </h3>
+                            <p class="snippet">
+                                <%= blog.snippet %>
+                            </p>
+                        </div>
+                        <% }) %>
+                            <% }else{ %>
+                                <p>These are no blogs to display...</p>
+                                <% } %>
+            </div>
+
+            <%- include("./partials/footer.ejs") %>
+    </body>
+
+</html>
