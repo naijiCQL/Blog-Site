@@ -11,7 +11,7 @@
 
 ## 项目简介
 
-1、本项目目前采用Node.js + Express + EJS进行编写，主要目的是学习Node.js。
+1、本项目目前采用Node.js + Express + EJS进行编写，数据库采用MongoDB，主要目的是学习Node.js。
 
 2、部分代码未进行展示，目前项目正在优化中，后续再进行更新。
 
