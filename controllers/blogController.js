@@ -2,14 +2,14 @@
  * @Author: 陈巧龙
  * @Date: 2024-02-29 13:54:33
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-02-29 14:12:53
+ * @LastEditTime: 2024-02-29 15:07:46
  * @FilePath: \Node_Study\controllers\blogController.js
  * @Description: 控制器（Controller）：用于处理请求，并跳回到下一个视图
  */
 const Blog = require('../models/blog')
 
 /**
- * @description: 进行博客检索
+ * @description: 完成blog检索的请求
  * @param {*} req
  * @param {*} res
  * @return {*}
@@ -17,7 +17,7 @@ const Blog = require('../models/blog')
 function blog_find(req, res) {
     Blog.find()
         .then((result) => {
-            res.render('index', { title: 'All Blogs', blogs: result })
+            res.render('blogs/index', { title: 'All Blogs', blogs: result })
         }).catch((err) => {
             console.log(err)
         })
@@ -54,10 +54,9 @@ function blog_get(req, res, next) {
     Blog.findById(id)
         .then((result) => {
             console.log(result)
-            res.render('details', { blog: result, title: 'Blog Details' })
+            res.render('blogs/details', { blog: result, title: 'Blog Details' })
         })
         .catch((err) => {
-            console.log(err)
             next()
         })
 }

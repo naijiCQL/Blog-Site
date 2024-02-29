@@ -2,7 +2,7 @@
  * @Author: 陈巧龙
  * @Date: 2024-02-27 14:02:10
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-02-29 14:15:42
+ * @LastEditTime: 2024-02-29 14:16:42
  * @FilePath: \Node_Study\app.js
  * @Description: 服务端配置
  */
@@ -45,6 +45,7 @@ app.get('/about', (req, res) => {
 })
 
 //blog路由，提取公共路由blogs
+//当前端请求的url为'/blogs'，则服务端进行响应跳转至about页面
 app.use('/blogs', blogRoutes)
 
 //当前端请求都未被匹配，则服务端进行以下响应

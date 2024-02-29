@@ -1,14 +1,15 @@
 /*
  * @Author: 陈巧龙
  * @Date: 2024-02-29 10:45:56
- * @LastEditors: 
- * @LastEditTime: 2024-02-29 14:11:16
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2024-02-29 14:25:54
  * @FilePath: \Node_Study\routes\blogRoutes.js
  * @Description: 提炼公共路由
  */
 const express = require('express')
 const { blog_find, blog_post, blog_get, blog_delete } = require('../controllers/blogController')
 
+//注册路由
 const router = express.Router()
 
 //当前端请求的url为'/blogs'，则服务端得到请求，向数据库进行查询，然后将查询的数据响应传递给index页面并跳转至index页面
@@ -24,7 +25,7 @@ router.post('/', (req, res) => {
 
 //当前端请求的url为'/blogs/create'，则服务端进行响应跳转至create页面
 router.get('/create', (req, res) => {
-    res.render('create', { title: 'Create a new blog' })
+    res.render('blogs/create', { title: 'Create a new blog' })
 })
 
 //当前端请求的url为'/blogs/:id'，则服务端进行响应跳转至details页面
