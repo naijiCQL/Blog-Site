@@ -2,7 +2,7 @@
  * @Author: 陈巧龙
  * @Date: 2024-02-27 21:21:09
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-02-29 14:51:59
+ * @LastEditTime: 2024-02-29 15:17:22
  * @FilePath: \Node_Study\README.md
  * @Description: 说明文档
 -->
@@ -10,11 +10,11 @@
 
 ## 项目简介
 
-1、本项目目前采用MVC的模式，技术层采用Node.js + Express + EJS进行编写，数据库采用MongoDB，主要目的是学习Node.js。
+1、本项目目前采用MVC的设计模式，搭建一个简易的博客网站，主要目的是学习对Node.js的使用。
 
-2、部分代码未进行展示，目前项目正在持续更新中。
+2、技术层采用Node.js + Express + EJS进行编写，数据库采用MongoDB。
 
-3、欢迎大家一起沟通交流。
+3、部分代码未进行展示，目前项目正在持续更新中，欢迎大家一起沟通交流。
 
 ## 项目启动
 
@@ -24,7 +24,7 @@
 
 ### 启动项目
 
-> npm run start
+> npm run serve
 
 ## 参考资料
 
