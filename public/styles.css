@@ -70,23 +70,35 @@ h3 {
     margin-left: 20px;
 }
 
-.content h2 {
-    font-size: 30px;
-}
-
-.content-style {
-    margin: 10px 0;
-}
-
-
-.content-style:hover {
-    background: rgba(122, 206, 202, 0.1);
-    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
-}
-
 /* index styles */
+.blogs a {
+    display: block;
+    margin: 40px 0;
+    padding-left: 30px;
+    border-left: 6px solid crimson;
+}
+
+.blogs a:hover h3 {
+    color: crimson;
+}
 
 /* details styles */
+.details {
+    position: relative;
+}
+
+.delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.delete:hover {
+    cursor: pointer;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
 
 /* create styles */
 .create-blog form {
@@ -113,10 +125,16 @@ textarea {
 
 .create-blog button {
     margin-top: 20px;
-    background: crimson;
+    background: rgb(220, 20, 60, 0.8);
     color: white;
     padding: 6px;
     border: 0;
     font-size: 1.2em;
     cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.create-blog button:hover {
+    background: rgb(220, 20, 60);
 }

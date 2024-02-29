@@ -2,7 +2,7 @@
  * @Author: 陈巧龙
  * @Date: 2024-02-27 15:49:28
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-02-27 21:17:51
+ * @LastEditTime: 2024-02-28 20:53:48
  * @FilePath: \Node_Study\views\index.ejs
  * @Description: 主页面
 -->
@@ -16,14 +16,16 @@
                 <h2>All Blogs</h2>
 
                 <% if(blogs.length>0){ %>
-                    <% blogs.map(blog=> { %>
+                    <% blogs.forEach(blog=> { %>
                         <div class="content-style">
-                            <h3 class="title">
-                                <%= blog.title %>
-                            </h3>
-                            <p class="snippet">
-                                <%= blog.snippet %>
-                            </p>
+                            <a class="single" href='/blogs/<%= blog._id %>'>
+                                <h3 class="title">
+                                    <%= blog.title %>
+                                </h3>
+                                <p class="snippet">
+                                    <%= blog.snippet %>
+                                </p>
+                            </a>
                         </div>
                         <% }) %>
                             <% }else{ %>
