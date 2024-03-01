@@ -3,9 +3,7 @@
 const mongoose = require('mongoose');
 
 //定义Schema (骨架)
-const Schema = mongoose.Schema;
-
-const blogSchema = new Schema({
+const blogSchema = mongoose.Schema({
     title: {
         type: String,//设置数据类型
         required: true,//设置为必需字段
