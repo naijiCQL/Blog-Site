@@ -9,6 +9,7 @@ lerna-debug.log*
 
 node_modules
 /docs
+main_page.png
 
 # Editor directories and files
 .vscode/*

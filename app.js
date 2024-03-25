@@ -2,7 +2,7 @@
  * @Author: 陈巧龙
  * @Date: 2024-02-27 14:02:10
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-03-01 13:24:50
+ * @LastEditTime: 2024-03-02 20:49:17
  * @FilePath: \Node_Study\app.js
  * @Description: 服务端配置
  */
@@ -53,6 +53,6 @@ app.use((req, res) => {
 })
 
 //监听8080端口号
-app.listen(8080, () => {
-    console.log('Server running at http://localhost:8080/')
+app.listen(9090, () => {
+    console.log('Server running at http://localhost:9090/')
 })
