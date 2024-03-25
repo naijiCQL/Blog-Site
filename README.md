@@ -2,7 +2,7 @@
  * @Author: 陈巧龙
  * @Date: 2024-02-27 21:21:09
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-02-29 15:17:22
+ * @LastEditTime: 2024-03-25 19:49:04
  * @FilePath: \Node_Study\README.md
  * @Description: 说明文档
 -->
@@ -37,4 +37,4 @@
 ##### 4、[MongoDB download](https://www.mongodb.com/try/download/community)
 
 ## 界面展示
-![alt 属性文本](./main_page.png)
+![alt 属性文本](./mainPage.png)
