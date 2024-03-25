@@ -2,7 +2,7 @@
  * @Author: 陈巧龙
  * @Date: 2024-02-27 21:21:09
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-03-25 19:47:07
+ * @LastEditTime: 2024-02-29 15:17:22
  * @FilePath: \Node_Study\README.md
  * @Description: 说明文档
 -->
@@ -35,3 +35,6 @@
 ##### 3、[EJS](https://ejs.bootcss.com/)
 
 ##### 4、[MongoDB download](https://www.mongodb.com/try/download/community)
+
+## 界面展示
+![alt 属性文本](./main_page.png)
